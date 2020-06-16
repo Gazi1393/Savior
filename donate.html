@@ -1,0 +1,43 @@
+
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="donate.css">
+    <meta charset="utf-8">
+
+    <title>Donor Details</title>
+    </head>
+
+  <body>
+    <h1> Enter Donor information : </h1>
+    <div class="container">
+    <form action="http://localhost/savior/try1.php" method="POST">
+      Full Name :
+      <input type="text"class="form-control" name = "fullname" placeholder="can be anonymous" required> <br>
+      Address :
+      <input type="text"class="form-control" name= "addr" required> <br>
+      Email :
+      <input type="email"class="form-control" name = "email" required> <br>
+      Phone :
+      <input type = "number"class="form-control" name ="pno" required> <br>
+      Type : <br>
+      <input type="radio"class="form-control" name = "type" value="Monetary"> Monetary <br>
+      <input type="radio"class="form-control" name =" type" value= "food"> Food <br>
+      <input type="radio"class="form-control" name =" type" value="clothes">Clothes <br>
+      <br>
+      Amount :
+      <input type= "text"class="form-control" name = "amount" required> <br>
+
+        <button type="submit" class="btn btn-primary" name="submit">Submit</button> <br>
+
+
+</div>
+  <br>
+      <br>
+
+
+
+
+  </body>
+</html>
